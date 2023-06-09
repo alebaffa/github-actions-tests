@@ -1,3 +1,2 @@
-any-of:
-  - path: '**/*.md'
-    labels: [documentation]
+documentation:
+- any: ['*.md', 'docs/**']
