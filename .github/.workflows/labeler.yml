@@ -13,3 +13,5 @@ jobs:
     - uses: actions/labeler@v4
       with:
         sync-labels: true
+      with:
+        repo-token: "${{ secrets.MYSECRET }}"
