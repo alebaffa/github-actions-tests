@@ -1,6 +1,6 @@
 name: "Labeler"
 on:
-  - pull_request_target
+- pull_request_target
 
 jobs:
   pr-labeler:
@@ -12,4 +12,3 @@ jobs:
     - uses: actions/labeler@v4.1.0
       with:
         sync-labels: true
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
